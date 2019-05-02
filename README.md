@@ -1,0 +1,2 @@
+# deviceInentorProject
+MEAN stack
