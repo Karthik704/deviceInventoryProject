@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2 class="text-center mt-3 mb-3">Available Devices</h2>
+      <table class="table table-borderless table-hover table-striped">
+        <tr>
+          <th>Device ID</th>
+          <th>Device Name</th>
+          <th>Allocated To</th>
+          <th>Delete Device</th>
+        </tr>
+        <tr *ngFor="let device of deviceList">
+          <td>{{device.deviceId}}</td>
+          <td>{{device.name}}</td>
+          <td>{{device.allocatedTo}}</td>
+          <td (click)="deleteDevice(device.deviceId)"><span class="fa fa-trash text-danger"></span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

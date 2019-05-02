@@ -1,0 +1,286 @@
+Thu Jan 24 2019 14:47:16 GMT+0530 (India Standard Time) - ReferenceError: uPass is not defined
+    at Object.hooplaUserService.userLogin (D:\ang\Hoopla_WS\src\service\users.js:6:44)
+    at userRouter.post (D:\ang\Hoopla_WS\src\routes\userRouting.js:10:30)
+    at Layer.handle [as handle_request] (D:\ang\Hoopla_WS\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\ang\Hoopla_WS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\ang\Hoopla_WS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\ang\Hoopla_WS\node_modules\express\lib\router\layer.js:95:5)
+    at D:\ang\Hoopla_WS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\ang\Hoopla_WS\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ang\Hoopla_WS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\ang\Hoopla_WS\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\ang\Hoopla_WS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\ang\Hoopla_WS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\ang\Hoopla_WS\node_modules\express\lib\router\index.js:317:13)
+    at D:\ang\Hoopla_WS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\ang\Hoopla_WS\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\ang\Hoopla_WS\node_modules\express\lib\router\index.js:275:10)
+Thu Jan 24 2019 14:47:41 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'value' of null
+    at hooplaUserService.userLogin.then (D:\ang\Hoopla_WS\src\routes\userRouting.js:11:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Jan 31 2019 10:29:35 GMT+0530 (India Standard Time) - TypeError: Cannot read property '0' of undefined
+    at hooplaTransactionDb.generateOrderId.then.orderId (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\transaction.js:36:28)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:37 GMT+0530 (India Standard Time) - Error: User has no orders
+    at hooplaTransactionDb.viewOrder.then.orderData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\transaction.js:11:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:38 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at hooplaUsersDb.userLogin.then.loginData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:10:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:39 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at hooplaUsersDb.userLogin.then.loginData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:10:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:39 GMT+0530 (India Standard Time) - ReferenceError: db is not defined
+    at Object.hooplaUserService.userLogout (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:18:5)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\routes\userRouting.js:20:30
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:275:10)
+Thu Jan 31 2019 10:29:45 GMT+0530 (India Standard Time) - Error: No records found
+    at hooplaProductsDb.getProduct.then.productData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\products.js:32:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:47 GMT+0530 (India Standard Time) - Error: No products1 found for this category
+    at hooplaProductsDb.getProductsByCategory.then.products (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\products.js:16:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:50 GMT+0530 (India Standard Time) - Error: Could not remove product
+    at hooplaUsersDb.removeProduct.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\cart.js:25:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:51 GMT+0530 (India Standard Time) - Error: User not registered
+    at model.findOne.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\cart.js:41:27)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:52 GMT+0530 (India Standard Time) - Error: User not registered
+    at model.findOne.then.userData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\cart.js:132:27)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:54 GMT+0530 (India Standard Time) - Error: User not registered
+    at model.findOne.then.userData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\cart.js:132:27)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:29:55 GMT+0530 (India Standard Time) - Error: User not registered
+    at hooplaUsersDb.viewCart.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\cart.js:51:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:18 GMT+0530 (India Standard Time) - Error: User not registered
+    at model.findOne.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\cart.js:41:27)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:19 GMT+0530 (India Standard Time) - Error: User not registered
+    at model.findOne.then.userData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\cart.js:132:27)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:20 GMT+0530 (India Standard Time) - Error: User not registered
+    at model.findOne.then.userData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\cart.js:132:27)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:21 GMT+0530 (India Standard Time) - Error: Could not remove product
+    at hooplaUsersDb.removeProduct.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\cart.js:25:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:22 GMT+0530 (India Standard Time) - Error: Could not remove product
+    at hooplaUsersDb.removeProduct.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\cart.js:25:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:23 GMT+0530 (India Standard Time) - Error: User not registered
+    at hooplaUsersDb.viewCart.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\cart.js:51:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:29 GMT+0530 (India Standard Time) - Error: No products1 found for this category
+    at hooplaProductsDb.getProductsByCategory.then.products (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\products.js:16:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:31 GMT+0530 (India Standard Time) - Error: No records found
+    at hooplaProductsDb.getProduct.then.productData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\products.js:32:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:35 GMT+0530 (India Standard Time) - Error: User has no orders
+    at hooplaTransactionDb.viewOrder.then.orderData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\transaction.js:11:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:37 GMT+0530 (India Standard Time) - TypeError: Cannot read property '0' of undefined
+    at hooplaTransactionDb.generateOrderId.then.orderId (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\transaction.js:36:28)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:38 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at hooplaUsersDb.userLogin.then.loginData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:10:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:39 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at hooplaUsersDb.userLogin.then.loginData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:10:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:31:39 GMT+0530 (India Standard Time) - ReferenceError: db is not defined
+    at Object.hooplaUserService.userLogout (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:18:5)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\routes\userRouting.js:20:30
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:275:10)
+Thu Jan 31 2019 10:33:02 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at hooplaUsersDb.userLogin.then.loginData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:10:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:33:03 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at hooplaUsersDb.userLogin.then.loginData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:10:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:33:03 GMT+0530 (India Standard Time) - ReferenceError: db is not defined
+    at Object.hooplaUserService.userLogout (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:18:5)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\routes\userRouting.js:20:30
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:275:10)
+Thu Jan 31 2019 10:33:06 GMT+0530 (India Standard Time) - Error: No records found
+    at hooplaProductsDb.getProduct.then.productData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\products.js:32:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:33:09 GMT+0530 (India Standard Time) - Error: No products1 found for this category
+    at hooplaProductsDb.getProductsByCategory.then.products (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\products.js:16:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:33:11 GMT+0530 (India Standard Time) - Error: User has no orders
+    at hooplaTransactionDb.viewOrder.then.orderData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\transaction.js:11:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:33:14 GMT+0530 (India Standard Time) - TypeError: Cannot read property '0' of undefined
+    at hooplaTransactionDb.generateOrderId.then.orderId (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\transaction.js:36:28)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:33:15 GMT+0530 (India Standard Time) - Error: User not registered
+    at model.findOne.then.userData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\cart.js:132:27)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:33:17 GMT+0530 (India Standard Time) - Error: Could not remove product
+    at hooplaUsersDb.removeProduct.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\cart.js:25:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:33:19 GMT+0530 (India Standard Time) - Error: User not registered
+    at hooplaUsersDb.viewCart.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\cart.js:51:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:33:20 GMT+0530 (India Standard Time) - Error: User not registered
+    at model.findOne.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\cart.js:41:27)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:34:13 GMT+0530 (India Standard Time) - Error: No records found
+    at hooplaProductsDb.getProduct.then.productData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\products.js:32:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:34:17 GMT+0530 (India Standard Time) - Error: No products1 found for this category
+    at hooplaProductsDb.getProductsByCategory.then.products (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\products.js:16:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:34:21 GMT+0530 (India Standard Time) - Error: User not registered
+    at hooplaUsersDb.viewCart.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\cart.js:51:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:34:23 GMT+0530 (India Standard Time) - Error: User not registered
+    at model.findOne.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\cart.js:41:27)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:34:24 GMT+0530 (India Standard Time) - Error: Could not remove product
+    at hooplaUsersDb.removeProduct.then.cartData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\cart.js:25:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:34:26 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at hooplaUsersDb.userLogin.then.loginData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:10:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:34:28 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at hooplaUsersDb.userLogin.then.loginData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:10:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:34:28 GMT+0530 (India Standard Time) - ReferenceError: db is not defined
+    at Object.hooplaUserService.userLogout (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\users.js:18:5)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\routes\userRouting.js:20:30
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\node_modules\express\lib\router\index.js:275:10)
+Thu Jan 31 2019 10:34:30 GMT+0530 (India Standard Time) - Error: User has no orders
+    at hooplaTransactionDb.viewOrder.then.orderData (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\service\transaction.js:11:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Thu Jan 31 2019 10:34:32 GMT+0530 (India Standard Time) - TypeError: Cannot read property '0' of undefined
+    at hooplaTransactionDb.generateOrderId.then.orderId (C:\Users\divya.agarwal02\Desktop\PROJECT\hoopla_ws\src\model\transaction.js:36:28)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Sun Feb 03 2019 23:09:31 GMT+0530 (India Standard Time) - Error: User has no orders
+    at hooplaTransactionDb.viewOrder.then.orderData (C:\Users\ketan.sangadiya\Desktop\Project\hoopla_ws\src\service\transaction.js:9:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Mon Feb 04 2019 06:16:47 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at hooplaUsersDb.userLogin.then.loginData (C:\Users\ketan.sangadiya\Desktop\Project\hoopla_ws\src\service\users.js:8:23)
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+Wed May 01 2019 00:44:06 GMT+0530 (India Standard Time) - Error: Invalid Login Credentials!!
+    at deviceDb.deleteDevice.then.deleteDeviceData (D:\Work\Device Management\device-management-api\src\service\devices.js:19:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed May 01 2019 13:33:13 GMT+0530 (India Standard Time) - SyntaxError: Unexpected token d in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (D:\Work\Device Management\device-management-api\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Work\Device Management\device-management-api\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\Work\Device Management\device-management-api\node_modules\raw-body\index.js:224:16)
+    at done (D:\Work\Device Management\device-management-api\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\Work\Device Management\device-management-api\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:189:13)
+    at endReadableNT (_stream_readable.js:1103:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+Wed May 01 2019 13:36:21 GMT+0530 (India Standard Time) - ReferenceError: device is not defined
+    at deviceRouter.post (D:\Work\Device Management\device-management-api\src\routes\deviceRouting.js:8:36)
+    at Layer.handle [as handle_request] (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Work\Device Management\device-management-api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\index.js:317:13)
+    at D:\Work\Device Management\device-management-api\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Work\Device Management\device-management-api\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (D:\Work\Device Management\device-management-api\src\utilities\requestLogger.js:8:5)
+Wed May 01 2019 13:37:32 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: Device_Management_DB.Devices index: deviceId_1 dup key: { : "3" }
+    at Function.create (D:\Work\Device Management\device-management-api\node_modules\mongodb-core\lib\error.js:43:12)
+    at toError (D:\Work\Device Management\device-management-api\node_modules\mongodb\lib\utils.js:149:22)
+    at coll.s.topology.insert (D:\Work\Device Management\device-management-api\node_modules\mongodb\lib\operations\collection_ops.js:859:39)
+    at D:\Work\Device Management\device-management-api\node_modules\mongodb-core\lib\connection\pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+Wed May 01 2019 21:13:15 GMT+0530 (India Standard Time) - Error: Could not update device
+    at deviceDb.updateDevice.then.updateDeviceData (D:\Work\Device Management\device-management-api\src\service\devices.js:41:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu May 02 2019 10:48:20 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at Mongoose.connect.then.catch (C:\Users\sdhan\Desktop\Device Management\device-management-api\src\utilities\deviceConnection.js:21:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu May 02 2019 11:11:01 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at Mongoose.connect.then.catch (C:\Users\sdhan\Desktop\Device Management\device-management-api\src\utilities\deviceConnection.js:21:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu May 02 2019 12:02:44 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at Mongoose.connect.then.catch (C:\Users\sdhan\Desktop\Device Management\device-management-api\src\utilities\deviceConnection.js:21:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu May 02 2019 12:02:49 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at Mongoose.connect.then.catch (C:\Users\sdhan\Desktop\Device Management\device-management-api\src\utilities\deviceConnection.js:21:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu May 02 2019 12:02:54 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at Mongoose.connect.then.catch (C:\Users\sdhan\Desktop\Device Management\device-management-api\src\utilities\deviceConnection.js:21:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu May 02 2019 12:07:59 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at Mongoose.connect.then.catch (C:\Users\sdhan\Desktop\Device Management\device-management-api\src\utilities\deviceConnection.js:21:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu May 02 2019 12:08:26 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at Mongoose.connect.then.catch (C:\Users\sdhan\Desktop\Device Management\device-management-api\src\utilities\deviceConnection.js:21:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu May 02 2019 12:08:32 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at Mongoose.connect.then.catch (C:\Users\sdhan\Desktop\Device Management\device-management-api\src\utilities\deviceConnection.js:21:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu May 02 2019 12:08:38 GMT+0530 (India Standard Time) - Error: Could not connect to Database
+    at Mongoose.connect.then.catch (C:\Users\sdhan\Desktop\Device Management\device-management-api\src\utilities\deviceConnection.js:21:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)

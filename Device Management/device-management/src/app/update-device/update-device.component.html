@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2 class="text-center mt-3 mb-3">Available Devices</h2>
+      <form [formGroup]="updateDeviceForm" class="form">
+        <table class="table table-borderless table-hover table-striped">
+          <tr>
+            <th>Device ID</th>
+            <th>Device Name</th>
+            <th>Allocated To</th>
+            <th>Update Device</th>
+          </tr>
+          <tr *ngFor="let device of deviceList">
+            <td><input class="form-control" type="text" formControlName="deviceId" id="deviceId" value="{{device.deviceId}}"
+                readonly>
+            </td>
+            <td><input class="form-control" type="text" formControlName="name" id="name" value="{{device.name}}"></td>
+            <td><input class="form-control" type="text" formControlName="allocatedTo" id="allocatedTo"
+                value="{{device.allocatedTo}}"></td>
+            <td><button class="btn btn-block btn-dark" (click)="updateDevice(device.deviceId)"><span class="fa fa-pencil text-warning"></span></button></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</div>
