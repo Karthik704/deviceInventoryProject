@@ -1,4 +1,4 @@
-# deviceInventory Project using MEAN Stack
+# Device Inventory Project using MEAN Stack
 Prerequisites:
 
 Html,CSS,Bootstrap,Angular 7,Node Js,Express Js,MongoDb.
